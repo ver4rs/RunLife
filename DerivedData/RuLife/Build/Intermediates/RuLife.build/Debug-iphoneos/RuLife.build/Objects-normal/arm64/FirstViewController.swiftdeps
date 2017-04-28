@@ -1,0 +1,331 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FirstViewController"
+provides-nominal:
+- "C6RuLife19FirstViewController"
+provides-member:
+- ["C6RuLife19FirstViewController", ""]
+provides-dynamic-lookup:
+- "settingButton"
+- "buttonBeginRun"
+- "didReceiveMemoryWarning"
+- "imageLegs"
+- "viewDidLoad"
+depends-top-level:
+- "FirstViewController"
+- "UIBarButtonItem"
+- "UIViewController"
+- "UIButton"
+- !private "/"
+- !private "UIColor"
+- "UIImageView"
+depends-member:
+- !private ["PSs9AnyObject", "CGColor"]
+- !private ["PSs9AnyObject", "UIColor"]
+- !private ["PSs9AnyObject", "backgroundColor"]
+- !private ["PSs9AnyObject", "borderColor"]
+- !private ["PSs9AnyObject", "borderWidth"]
+- ["PSs9AnyObject", "buttonBeginRun"]
+- !private ["PSs9AnyObject", "cornerRadius"]
+- ["PSs9AnyObject", "didReceiveMemoryWarning"]
+- ["PSs9AnyObject", "imageLegs"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "layer"]
+- ["PSs9AnyObject", "settingButton"]
+- !private ["PSs9AnyObject", "tintColor"]
+- ["PSs9AnyObject", "viewDidLoad"]
+- !private ["PSs9AnyObject", "whiteColor"]
+- ["PSs9AnyObject", ""]
+- !private ["CSo7CALayer", "borderColor"]
+- !private ["CSo7CALayer", "borderWidth"]
+- !private ["CSo7CALayer", "cornerRadius"]
+- !private ["PSo13CAMediaTiming", "borderColor"]
+- !private ["PSo13CAMediaTiming", "borderWidth"]
+- !private ["PSo13CAMediaTiming", "cornerRadius"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["PSs11CVarArgType", "CGColor"]
+- !private ["PSs11CVarArgType", "UIColor"]
+- !private ["PSs11CVarArgType", "backgroundColor"]
+- !private ["PSs11CVarArgType", "borderColor"]
+- !private ["PSs11CVarArgType", "borderWidth"]
+- ["PSs11CVarArgType", "buttonBeginRun"]
+- !private ["PSs11CVarArgType", "cornerRadius"]
+- ["PSs11CVarArgType", "didReceiveMemoryWarning"]
+- ["PSs11CVarArgType", "imageLegs"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "layer"]
+- ["PSs11CVarArgType", "settingButton"]
+- !private ["PSs11CVarArgType", "tintColor"]
+- ["PSs11CVarArgType", "viewDidLoad"]
+- !private ["PSs11CVarArgType", "whiteColor"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs23CustomStringConvertible", "CGColor"]
+- !private ["PSs23CustomStringConvertible", "UIColor"]
+- !private ["PSs23CustomStringConvertible", "backgroundColor"]
+- !private ["PSs23CustomStringConvertible", "borderColor"]
+- !private ["PSs23CustomStringConvertible", "borderWidth"]
+- ["PSs23CustomStringConvertible", "buttonBeginRun"]
+- !private ["PSs23CustomStringConvertible", "cornerRadius"]
+- ["PSs23CustomStringConvertible", "didReceiveMemoryWarning"]
+- ["PSs23CustomStringConvertible", "imageLegs"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "layer"]
+- ["PSs23CustomStringConvertible", "settingButton"]
+- !private ["PSs23CustomStringConvertible", "tintColor"]
+- ["PSs23CustomStringConvertible", "viewDidLoad"]
+- !private ["PSs23CustomStringConvertible", "whiteColor"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "CGColor"]
+- !private ["PSs9Equatable", "UIColor"]
+- !private ["PSs9Equatable", "backgroundColor"]
+- !private ["PSs9Equatable", "borderColor"]
+- !private ["PSs9Equatable", "borderWidth"]
+- ["PSs9Equatable", "buttonBeginRun"]
+- !private ["PSs9Equatable", "cornerRadius"]
+- ["PSs9Equatable", "didReceiveMemoryWarning"]
+- ["PSs9Equatable", "imageLegs"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "layer"]
+- ["PSs9Equatable", "settingButton"]
+- !private ["PSs9Equatable", "tintColor"]
+- ["PSs9Equatable", "viewDidLoad"]
+- !private ["PSs9Equatable", "whiteColor"]
+- ["PSs9Equatable", ""]
+- ["C6RuLife19FirstViewController", "UIBarButtonItem"]
+- ["C6RuLife19FirstViewController", "UIButton"]
+- !private ["C6RuLife19FirstViewController", "UIColor"]
+- ["C6RuLife19FirstViewController", "UIImageView"]
+- ["C6RuLife19FirstViewController", "buttonBeginRun"]
+- ["C6RuLife19FirstViewController", "deinit"]
+- ["C6RuLife19FirstViewController", "didReceiveMemoryWarning"]
+- ["C6RuLife19FirstViewController", "imageLegs"]
+- ["C6RuLife19FirstViewController", "init"]
+- ["C6RuLife19FirstViewController", "settingButton"]
+- ["C6RuLife19FirstViewController", "viewDidLoad"]
+- !private ["PSs8Hashable", "CGColor"]
+- !private ["PSs8Hashable", "UIColor"]
+- !private ["PSs8Hashable", "backgroundColor"]
+- !private ["PSs8Hashable", "borderColor"]
+- !private ["PSs8Hashable", "borderWidth"]
+- ["PSs8Hashable", "buttonBeginRun"]
+- !private ["PSs8Hashable", "cornerRadius"]
+- ["PSs8Hashable", "didReceiveMemoryWarning"]
+- ["PSs8Hashable", "imageLegs"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "layer"]
+- ["PSs8Hashable", "settingButton"]
+- !private ["PSs8Hashable", "tintColor"]
+- ["PSs8Hashable", "viewDidLoad"]
+- !private ["PSs8Hashable", "whiteColor"]
+- ["PSs8Hashable", ""]
+- !private ["PSo8NSCoding", "CGColor"]
+- !private ["PSo8NSCoding", "UIColor"]
+- !private ["PSo8NSCoding", "backgroundColor"]
+- !private ["PSo8NSCoding", "borderColor"]
+- !private ["PSo8NSCoding", "borderWidth"]
+- ["PSo8NSCoding", "buttonBeginRun"]
+- !private ["PSo8NSCoding", "cornerRadius"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- ["PSo8NSCoding", "imageLegs"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "layer"]
+- ["PSo8NSCoding", "settingButton"]
+- !private ["PSo8NSCoding", "tintColor"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- !private ["PSo8NSCoding", "whiteColor"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "CGColor"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "whiteColor"]
+- !private ["PSo26NSExtensionRequestHandling", "UIColor"]
+- ["PSo26NSExtensionRequestHandling", "buttonBeginRun"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- ["PSo26NSExtensionRequestHandling", "imageLegs"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "settingButton"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["CSo8NSObject", "CGColor"]
+- ["CSo8NSObject", "UIBarButtonItem"]
+- ["CSo8NSObject", "UIButton"]
+- !private ["CSo8NSObject", "UIColor"]
+- ["CSo8NSObject", "UIImageView"]
+- !private ["CSo8NSObject", "backgroundColor"]
+- !private ["CSo8NSObject", "borderColor"]
+- !private ["CSo8NSObject", "borderWidth"]
+- ["CSo8NSObject", "buttonBeginRun"]
+- !private ["CSo8NSObject", "cornerRadius"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- ["CSo8NSObject", "imageLegs"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "layer"]
+- ["CSo8NSObject", "settingButton"]
+- !private ["CSo8NSObject", "tintColor"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["CSo8NSObject", "whiteColor"]
+- !private ["PSo16NSObjectProtocol", "CGColor"]
+- !private ["PSo16NSObjectProtocol", "UIColor"]
+- !private ["PSo16NSObjectProtocol", "backgroundColor"]
+- !private ["PSo16NSObjectProtocol", "borderColor"]
+- !private ["PSo16NSObjectProtocol", "borderWidth"]
+- ["PSo16NSObjectProtocol", "buttonBeginRun"]
+- !private ["PSo16NSObjectProtocol", "cornerRadius"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "imageLegs"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "layer"]
+- ["PSo16NSObjectProtocol", "settingButton"]
+- !private ["PSo16NSObjectProtocol", "tintColor"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "whiteColor"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "CGColor"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "whiteColor"]
+- !private ["PSo29UIAccessibilityIdentification", "backgroundColor"]
+- !private ["PSo29UIAccessibilityIdentification", "layer"]
+- !private ["PSo29UIAccessibilityIdentification", "tintColor"]
+- !private ["PSo12UIAppearance", "backgroundColor"]
+- !private ["PSo12UIAppearance", "layer"]
+- !private ["PSo12UIAppearance", "tintColor"]
+- !private ["PSo21UIAppearanceContainer", "UIColor"]
+- !private ["PSo21UIAppearanceContainer", "backgroundColor"]
+- ["PSo21UIAppearanceContainer", "buttonBeginRun"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- ["PSo21UIAppearanceContainer", "imageLegs"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "layer"]
+- ["PSo21UIAppearanceContainer", "settingButton"]
+- !private ["PSo21UIAppearanceContainer", "tintColor"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo8UIButton", "backgroundColor"]
+- !private ["CSo8UIButton", "layer"]
+- !private ["CSo8UIButton", "tintColor"]
+- !private ["CSo7UIColor", "CGColor"]
+- !private ["CSo7UIColor", "init"]
+- !private ["CSo7UIColor", "whiteColor"]
+- !private ["PSo18UIContentContainer", "UIColor"]
+- ["PSo18UIContentContainer", "buttonBeginRun"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- ["PSo18UIContentContainer", "imageLegs"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "settingButton"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["CSo9UIControl", "backgroundColor"]
+- !private ["CSo9UIControl", "layer"]
+- !private ["CSo9UIControl", "tintColor"]
+- !private ["PSo17UICoordinateSpace", "backgroundColor"]
+- !private ["PSo17UICoordinateSpace", "layer"]
+- !private ["PSo17UICoordinateSpace", "tintColor"]
+- !private ["PSo13UIDynamicItem", "backgroundColor"]
+- !private ["PSo13UIDynamicItem", "layer"]
+- !private ["PSo13UIDynamicItem", "tintColor"]
+- !private ["PSo18UIFocusEnvironment", "UIColor"]
+- !private ["PSo18UIFocusEnvironment", "backgroundColor"]
+- ["PSo18UIFocusEnvironment", "buttonBeginRun"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UIFocusEnvironment", "imageLegs"]
+- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "layer"]
+- ["PSo18UIFocusEnvironment", "settingButton"]
+- !private ["PSo18UIFocusEnvironment", "tintColor"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["CSo11UIResponder", "UIBarButtonItem"]
+- ["CSo11UIResponder", "UIButton"]
+- !private ["CSo11UIResponder", "UIColor"]
+- ["CSo11UIResponder", "UIImageView"]
+- !private ["CSo11UIResponder", "backgroundColor"]
+- ["CSo11UIResponder", "buttonBeginRun"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "imageLegs"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "layer"]
+- ["CSo11UIResponder", "settingButton"]
+- !private ["CSo11UIResponder", "tintColor"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo16UIStateRestoring", "UIColor"]
+- ["PSo16UIStateRestoring", "buttonBeginRun"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- ["PSo16UIStateRestoring", "imageLegs"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "settingButton"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "UIColor"]
+- !private ["PSo18UITraitEnvironment", "backgroundColor"]
+- ["PSo18UITraitEnvironment", "buttonBeginRun"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UITraitEnvironment", "imageLegs"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "layer"]
+- ["PSo18UITraitEnvironment", "settingButton"]
+- !private ["PSo18UITraitEnvironment", "tintColor"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "backgroundColor"]
+- !private ["CSo6UIView", "layer"]
+- !private ["CSo6UIView", "tintColor"]
+- ["CSo16UIViewController", "UIBarButtonItem"]
+- ["CSo16UIViewController", "UIButton"]
+- !private ["CSo16UIViewController", "UIColor"]
+- ["CSo16UIViewController", "UIImageView"]
+- ["CSo16UIViewController", "buttonBeginRun"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "imageLegs"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "settingButton"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["PSs24_ColorLiteralConvertible", "CGColor"]
+- !private ["PSs24_ColorLiteralConvertible", "init"]
+- !private ["PSs24_ColorLiteralConvertible", "whiteColor"]
+- !private ["PSs12_Reflectable", "backgroundColor"]
+- !private ["PSs12_Reflectable", "layer"]
+- !private ["PSs12_Reflectable", "tintColor"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "CSo7CALayer"
+- !private "PSo13CAMediaTiming"
+- !private "V12CoreGraphics7CGFloat"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "C6RuLife19FirstViewController"
+- "PSs8Hashable"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo8UIButton"
+- !private "CSo7UIColor"
+- "PSo18UIContentContainer"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "PSs24_ColorLiteralConvertible"
+- !private "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+interface-hash: "9d3a6d0d88d860b26ff1ddb67069b871"

@@ -1,0 +1,11 @@
+version: "Apple Swift version 2.1 (swiftlang-700.1.101.6 clang-700.1.76)"
+options: "9f4dc2a5ebdbb6b3d455d55b76c2fec2"
+build_time: [511199132, 840545000]
+inputs:
+  "/Users/martin/Documents/programovanie/bc/RuLife/RuLife/StopWatch.swift": [510965079, 0]
+  "/Users/martin/Documents/programovanie/bc/RuLife/RuLife/AppDelegate.swift": [510769363, 0]
+  "/Users/martin/Documents/programovanie/bc/RuLife/RuLife/StartWorkoutTableViewCell.swift": [510843467, 0]
+  "/Users/martin/Documents/programovanie/bc/RuLife/RuLife/WorkoutTableViewCell.swift": [510789626, 0]
+  "/Users/martin/Documents/programovanie/bc/RuLife/RuLife/WorkoutTableViewController.swift": [510948287, 0]
+  "/Users/martin/Documents/programovanie/bc/RuLife/RuLife/StartWorkoutViewController.swift": [511197873, 0]
+  "/Users/martin/Documents/programovanie/bc/RuLife/RuLife/HomeViewController.swift": [511196815, 0]

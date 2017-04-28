@@ -1,0 +1,18 @@
+version: "Apple Swift version 2.1 (swiftlang-700.1.101.6 clang-700.1.76)"
+options: "60111606347fd862d83a9869cbb608f0"
+build_time: [516489079, 685671000]
+inputs:
+  "/Users/martin/Documents/programovanie/bc/RuLife/RuLife/StartWorkoutTableViewCell.swift": [510843467, 0]
+  "/Users/martin/Documents/programovanie/bc/RuLife/RuLife/StopWatch.swift": [512478875, 0]
+  "/Users/martin/Documents/programovanie/bc/RuLife/RuLife/Location.swift": [512500305, 0]
+  "/Users/martin/Documents/programovanie/bc/RuLife/RuLife/WorkoutTableViewCell.swift": [510789626, 0]
+  "/Users/martin/Documents/programovanie/bc/RuLife/RuLife/HomeViewController.swift": [511397328, 0]
+  "/Users/martin/Documents/programovanie/bc/RuLife/RuLife/AppDelegate.swift": [512489323, 0]
+  "/Users/martin/Documents/programovanie/bc/RuLife/RuLife/WorkoutTableViewController.swift": [513971529, 0]
+  "/Users/martin/Documents/programovanie/bc/RuLife/RuLife/FriendsTableViewController.swift": [9223372036854775807, 0]
+  "/Users/martin/Documents/programovanie/bc/RuLife/RuLife/Workout.swift": [512500305, 0]
+  "/Users/martin/Documents/programovanie/bc/RuLife/RuLife/StartWorkoutViewController.swift": [513972952, 0]
+  "/Users/martin/Documents/programovanie/bc/RuLife/RuLife/ViewMapsViewController.swift": [9223372036854775807, 0]
+  "/Users/martin/Documents/programovanie/bc/RuLife/RuLife/Location+CoreDataProperties.swift": [512500460, 0]
+  "/Users/martin/Documents/programovanie/bc/RuLife/RuLife/Workout+CoreDataProperties.swift": [512500489, 0]
+  "/Users/martin/Documents/programovanie/bc/RuLife/RuLife/SummaryViewController.swift": [514054134, 0]
