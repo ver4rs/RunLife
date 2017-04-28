@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="15A284" minimumToolsVersion="Xcode 7.0">
+    <entity name="Location" representedClassName=".Location" syncable="YES">
+        <attribute name="location_identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="location_latitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="location_longitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="location_time" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="workout" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Workout" inverseName="location" inverseEntity="Workout" syncable="YES"/>
+    </entity>
+    <entity name="Workout" representedClassName=".Workout" syncable="YES">
+        <attribute name="workout_date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="workout_distance" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="workout_duration" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="workout_identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="location" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="Location" inverseName="workout" inverseEntity="Location" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Location" positionX="-54" positionY="18" width="128" height="120"/>
+        <element name="Workout" positionX="-63" positionY="-18" width="128" height="120"/>
+    </elements>
+</model>

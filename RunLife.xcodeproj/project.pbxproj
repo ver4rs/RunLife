@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B2253021C98A8C900A07D36 /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2253011C98A8C900A07D36 /* SummaryViewController.swift */; };
+		5B257A9E1C9206BE007D1509 /* StopWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B257A9D1C9206BE007D1509 /* StopWatch.swift */; };
+		5B3454C51C8F247900BB709E /* legs.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B3454C41C8F247900BB709E /* legs.png */; };
+		5B3454C71C8F27E100BB709E /* full.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B3454C61C8F27E100BB709E /* full.png */; };
+		5B3454C91C8F2FB500BB709E /* nature-background-wallpaper-running-102554.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B3454C81C8F2FB500BB709E /* nature-background-wallpaper-running-102554.jpg */; };
+		5B3454CB1C8F386900BB709E /* stock-vector-weather-forecast-transparent-widget-template-on-night-sky-background-with-design-elements-for-188103167.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B3454CA1C8F386900BB709E /* stock-vector-weather-forecast-transparent-widget-template-on-night-sky-background-with-design-elements-for-188103167.png */; };
+		5B3454CD1C8F6B9E00BB709E /* StartWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3454CC1C8F6B9E00BB709E /* StartWorkoutViewController.swift */; };
+		5B3454D11C8F7F6000BB709E /* WorkoutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3454D01C8F7F6000BB709E /* WorkoutTableViewCell.swift */; };
+		5B60A4CC1C7122CE0091F7BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B60A4CB1C7122CE0091F7BB /* AppDelegate.swift */; };
+		5B60A4CE1C7122CE0091F7BB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B60A4CD1C7122CE0091F7BB /* HomeViewController.swift */; };
+		5B60A4D31C7122CE0091F7BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B60A4D11C7122CE0091F7BB /* Main.storyboard */; };
+		5B60A4D51C7122CE0091F7BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B60A4D41C7122CE0091F7BB /* Assets.xcassets */; };
+		5B60A4D81C7122CE0091F7BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B60A4D61C7122CE0091F7BB /* LaunchScreen.storyboard */; };
+		5B60A4E31C7122CF0091F7BB /* RuLifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B60A4E21C7122CF0091F7BB /* RuLifeTests.swift */; };
+		5B60A4EE1C7122CF0091F7BB /* RuLifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B60A4ED1C7122CF0091F7BB /* RuLifeUITests.swift */; };
+		5B6954E21C904EF800C5724C /* StartWorkoutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6954E11C904EF800C5724C /* StartWorkoutTableViewCell.swift */; };
+		5B6954E41C904F3800C5724C /* WorkoutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6954E31C904F3800C5724C /* WorkoutTableViewController.swift */; };
+		5B7287441CA970E4000166F1 /* RuLife.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5B7287421CA970E4000166F1 /* RuLife.xcdatamodeld */; };
+		5B72874B1CA99D52000166F1 /* Location+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7287471CA99D52000166F1 /* Location+CoreDataProperties.swift */; };
+		5B72874C1CA99D52000166F1 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7287481CA99D52000166F1 /* Location.swift */; };
+		5B72874D1CA99D52000166F1 /* Workout+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7287491CA99D52000166F1 /* Workout+CoreDataProperties.swift */; };
+		5B72874E1CA99D52000166F1 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B72874A1CA99D52000166F1 /* Workout.swift */; };
+		5B96FB5B1C94CEE100CED275 /* dotted-world-map.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B96FB5A1C94CEE100CED275 /* dotted-world-map.jpg */; };
+		5B96FB5D1C94D32900CED275 /* dotted maps button.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B96FB5C1C94D32900CED275 /* dotted maps button.jpg */; };
+		5B9AF7311CABFA72003F5DD8 /* ViewMapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9AF7301CABFA72003F5DD8 /* ViewMapsViewController.swift */; };
+		5B9F6F601CC00E93000D0590 /* FriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9F6F5F1CC00E93000D0590 /* FriendsTableViewController.swift */; };
+		5B9F6F621CC01580000D0590 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B9F6F611CC01580000D0590 /* CoreLocation.framework */; };
+		5B9F6F641CC015D7000D0590 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B9F6F631CC015D7000D0590 /* CoreData.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B60A4DF1C7122CF0091F7BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B60A4C01C7122CE0091F7BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B60A4C71C7122CE0091F7BB;
+			remoteInfo = RuLife;
+		};
+		5B60A4EA1C7122CF0091F7BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B60A4C01C7122CE0091F7BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B60A4C71C7122CE0091F7BB;
+			remoteInfo = RuLife;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B2253011C98A8C900A07D36 /* SummaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
+		5B257A9D1C9206BE007D1509 /* StopWatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopWatch.swift; sourceTree = "<group>"; };
+		5B3454C41C8F247900BB709E /* legs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = legs.png; sourceTree = "<group>"; };
+		5B3454C61C8F27E100BB709E /* full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = full.png; sourceTree = "<group>"; };
+		5B3454C81C8F2FB500BB709E /* nature-background-wallpaper-running-102554.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nature-background-wallpaper-running-102554.jpg"; sourceTree = "<group>"; };
+		5B3454CA1C8F386900BB709E /* stock-vector-weather-forecast-transparent-widget-template-on-night-sky-background-with-design-elements-for-188103167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stock-vector-weather-forecast-transparent-widget-template-on-night-sky-background-with-design-elements-for-188103167.png"; sourceTree = "<group>"; };
+		5B3454CC1C8F6B9E00BB709E /* StartWorkoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartWorkoutViewController.swift; sourceTree = "<group>"; };
+		5B3454D01C8F7F6000BB709E /* WorkoutTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutTableViewCell.swift; sourceTree = "<group>"; };
+		5B60A4C81C7122CE0091F7BB /* RunLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B60A4CB1C7122CE0091F7BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B60A4CD1C7122CE0091F7BB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5B60A4D21C7122CE0091F7BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B60A4D41C7122CE0091F7BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B60A4D71C7122CE0091F7BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B60A4D91C7122CE0091F7BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B60A4DE1C7122CF0091F7BB /* RunLife.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunLife.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B60A4E21C7122CF0091F7BB /* RuLifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuLifeTests.swift; sourceTree = "<group>"; };
+		5B60A4E41C7122CF0091F7BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B60A4E91C7122CF0091F7BB /* RunLife.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunLife.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B60A4ED1C7122CF0091F7BB /* RuLifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuLifeUITests.swift; sourceTree = "<group>"; };
+		5B60A4EF1C7122CF0091F7BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B6954E11C904EF800C5724C /* StartWorkoutTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartWorkoutTableViewCell.swift; sourceTree = "<group>"; };
+		5B6954E31C904F3800C5724C /* WorkoutTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutTableViewController.swift; sourceTree = "<group>"; };
+		5B7287431CA970E4000166F1 /* RuLife.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RuLife.xcdatamodel; sourceTree = "<group>"; };
+		5B7287471CA99D52000166F1 /* Location+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5B7287481CA99D52000166F1 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		5B7287491CA99D52000166F1 /* Workout+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Workout+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5B72874A1CA99D52000166F1 /* Workout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		5B96FB5A1C94CEE100CED275 /* dotted-world-map.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dotted-world-map.jpg"; sourceTree = "<group>"; };
+		5B96FB5C1C94D32900CED275 /* dotted maps button.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dotted maps button.jpg"; sourceTree = "<group>"; };
+		5B9AF7301CABFA72003F5DD8 /* ViewMapsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewMapsViewController.swift; sourceTree = "<group>"; };
+		5B9F6F5F1CC00E93000D0590 /* FriendsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsTableViewController.swift; sourceTree = "<group>"; };
+		5B9F6F611CC01580000D0590 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		5B9F6F631CC015D7000D0590 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B60A4C51C7122CE0091F7BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B9F6F641CC015D7000D0590 /* CoreData.framework in Frameworks */,
+				5B9F6F621CC01580000D0590 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B60A4DB1C7122CF0091F7BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B60A4E61C7122CF0091F7BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B257A9C1C91DEAB007D1509 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				5B96FB5A1C94CEE100CED275 /* dotted-world-map.jpg */,
+				5B96FB5C1C94D32900CED275 /* dotted maps button.jpg */,
+				5B3454C41C8F247900BB709E /* legs.png */,
+				5B3454C61C8F27E100BB709E /* full.png */,
+				5B3454C81C8F2FB500BB709E /* nature-background-wallpaper-running-102554.jpg */,
+				5B3454CA1C8F386900BB709E /* stock-vector-weather-forecast-transparent-widget-template-on-night-sky-background-with-design-elements-for-188103167.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		5B60A4BF1C7122CE0091F7BB = {
+			isa = PBXGroup;
+			children = (
+				5B60A4CA1C7122CE0091F7BB /* RuLife */,
+				5B60A4E11C7122CF0091F7BB /* RuLifeTests */,
+				5B60A4EC1C7122CF0091F7BB /* RuLifeUITests */,
+				5B60A4C91C7122CE0091F7BB /* Products */,
+				5B9F6F631CC015D7000D0590 /* CoreData.framework */,
+				5B9F6F611CC01580000D0590 /* CoreLocation.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		5B60A4C91C7122CE0091F7BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B60A4C81C7122CE0091F7BB /* RunLife.app */,
+				5B60A4DE1C7122CF0091F7BB /* RunLife.xctest */,
+				5B60A4E91C7122CF0091F7BB /* RunLife.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B60A4CA1C7122CE0091F7BB /* RuLife */ = {
+			isa = PBXGroup;
+			children = (
+				5B72874F1CA99D60000166F1 /* CoreData */,
+				5B60A4CB1C7122CE0091F7BB /* AppDelegate.swift */,
+				5B60A4CD1C7122CE0091F7BB /* HomeViewController.swift */,
+				5B3454CC1C8F6B9E00BB709E /* StartWorkoutViewController.swift */,
+				5B6954E31C904F3800C5724C /* WorkoutTableViewController.swift */,
+				5B2253011C98A8C900A07D36 /* SummaryViewController.swift */,
+				5B9AF7301CABFA72003F5DD8 /* ViewMapsViewController.swift */,
+				5B9F6F5F1CC00E93000D0590 /* FriendsTableViewController.swift */,
+				5B6954E01C904EB400C5724C /* CustomTableViewCell */,
+				5B60A4D41C7122CE0091F7BB /* Assets.xcassets */,
+				5B257A9D1C9206BE007D1509 /* StopWatch.swift */,
+				5B60A4D11C7122CE0091F7BB /* Main.storyboard */,
+				5B60A4D61C7122CE0091F7BB /* LaunchScreen.storyboard */,
+				5B60A4D91C7122CE0091F7BB /* Info.plist */,
+				5B7287421CA970E4000166F1 /* RuLife.xcdatamodeld */,
+				5B257A9C1C91DEAB007D1509 /* images */,
+			);
+			path = RuLife;
+			sourceTree = "<group>";
+		};
+		5B60A4E11C7122CF0091F7BB /* RuLifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B60A4E21C7122CF0091F7BB /* RuLifeTests.swift */,
+				5B60A4E41C7122CF0091F7BB /* Info.plist */,
+			);
+			path = RuLifeTests;
+			sourceTree = "<group>";
+		};
+		5B60A4EC1C7122CF0091F7BB /* RuLifeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5B60A4ED1C7122CF0091F7BB /* RuLifeUITests.swift */,
+				5B60A4EF1C7122CF0091F7BB /* Info.plist */,
+			);
+			path = RuLifeUITests;
+			sourceTree = "<group>";
+		};
+		5B6954E01C904EB400C5724C /* CustomTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				5B3454D01C8F7F6000BB709E /* WorkoutTableViewCell.swift */,
+				5B6954E11C904EF800C5724C /* StartWorkoutTableViewCell.swift */,
+			);
+			name = CustomTableViewCell;
+			sourceTree = "<group>";
+		};
+		5B72874F1CA99D60000166F1 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				5B7287471CA99D52000166F1 /* Location+CoreDataProperties.swift */,
+				5B7287481CA99D52000166F1 /* Location.swift */,
+				5B7287491CA99D52000166F1 /* Workout+CoreDataProperties.swift */,
+				5B72874A1CA99D52000166F1 /* Workout.swift */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B60A4C71C7122CE0091F7BB /* RunLife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B60A4F21C7122CF0091F7BB /* Build configuration list for PBXNativeTarget "RunLife" */;
+			buildPhases = (
+				5B60A4C41C7122CE0091F7BB /* Sources */,
+				5B60A4C51C7122CE0091F7BB /* Frameworks */,
+				5B60A4C61C7122CE0091F7BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RunLife;
+			productName = RuLife;
+			productReference = 5B60A4C81C7122CE0091F7BB /* RunLife.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B60A4DD1C7122CF0091F7BB /* RunLifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B60A4F51C7122CF0091F7BB /* Build configuration list for PBXNativeTarget "RunLifeTests" */;
+			buildPhases = (
+				5B60A4DA1C7122CF0091F7BB /* Sources */,
+				5B60A4DB1C7122CF0091F7BB /* Frameworks */,
+				5B60A4DC1C7122CF0091F7BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B60A4E01C7122CF0091F7BB /* PBXTargetDependency */,
+			);
+			name = RunLifeTests;
+			productName = RuLifeTests;
+			productReference = 5B60A4DE1C7122CF0091F7BB /* RunLife.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B60A4E81C7122CF0091F7BB /* RunLifeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B60A4F81C7122CF0091F7BB /* Build configuration list for PBXNativeTarget "RunLifeUITests" */;
+			buildPhases = (
+				5B60A4E51C7122CF0091F7BB /* Sources */,
+				5B60A4E61C7122CF0091F7BB /* Frameworks */,
+				5B60A4E71C7122CF0091F7BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B60A4EB1C7122CF0091F7BB /* PBXTargetDependency */,
+			);
+			name = RunLifeUITests;
+			productName = RuLifeUITests;
+			productReference = 5B60A4E91C7122CF0091F7BB /* RunLife.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B60A4C01C7122CE0091F7BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Martin Sekerák";
+				TargetAttributes = {
+					5B60A4C71C7122CE0091F7BB = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 76SK8DAWXC;
+					};
+					5B60A4DD1C7122CF0091F7BB = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 76SK8DAWXC;
+						TestTargetID = 5B60A4C71C7122CE0091F7BB;
+					};
+					5B60A4E81C7122CF0091F7BB = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 76SK8DAWXC;
+						TestTargetID = 5B60A4C71C7122CE0091F7BB;
+					};
+				};
+			};
+			buildConfigurationList = 5B60A4C31C7122CE0091F7BB /* Build configuration list for PBXProject "RunLife" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B60A4BF1C7122CE0091F7BB;
+			productRefGroup = 5B60A4C91C7122CE0091F7BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B60A4C71C7122CE0091F7BB /* RunLife */,
+				5B60A4DD1C7122CF0091F7BB /* RunLifeTests */,
+				5B60A4E81C7122CF0091F7BB /* RunLifeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B60A4C61C7122CE0091F7BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B3454C91C8F2FB500BB709E /* nature-background-wallpaper-running-102554.jpg in Resources */,
+				5B60A4D81C7122CE0091F7BB /* LaunchScreen.storyboard in Resources */,
+				5B96FB5B1C94CEE100CED275 /* dotted-world-map.jpg in Resources */,
+				5B3454C71C8F27E100BB709E /* full.png in Resources */,
+				5B60A4D51C7122CE0091F7BB /* Assets.xcassets in Resources */,
+				5B96FB5D1C94D32900CED275 /* dotted maps button.jpg in Resources */,
+				5B3454CB1C8F386900BB709E /* stock-vector-weather-forecast-transparent-widget-template-on-night-sky-background-with-design-elements-for-188103167.png in Resources */,
+				5B3454C51C8F247900BB709E /* legs.png in Resources */,
+				5B60A4D31C7122CE0091F7BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B60A4DC1C7122CF0091F7BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B60A4E71C7122CF0091F7BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B60A4C41C7122CE0091F7BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B60A4CC1C7122CE0091F7BB /* AppDelegate.swift in Sources */,
+				5B72874C1CA99D52000166F1 /* Location.swift in Sources */,
+				5B257A9E1C9206BE007D1509 /* StopWatch.swift in Sources */,
+				5B72874E1CA99D52000166F1 /* Workout.swift in Sources */,
+				5B3454CD1C8F6B9E00BB709E /* StartWorkoutViewController.swift in Sources */,
+				5B7287441CA970E4000166F1 /* RuLife.xcdatamodeld in Sources */,
+				5B9AF7311CABFA72003F5DD8 /* ViewMapsViewController.swift in Sources */,
+				5B72874B1CA99D52000166F1 /* Location+CoreDataProperties.swift in Sources */,
+				5B72874D1CA99D52000166F1 /* Workout+CoreDataProperties.swift in Sources */,
+				5B2253021C98A8C900A07D36 /* SummaryViewController.swift in Sources */,
+				5B6954E21C904EF800C5724C /* StartWorkoutTableViewCell.swift in Sources */,
+				5B3454D11C8F7F6000BB709E /* WorkoutTableViewCell.swift in Sources */,
+				5B60A4CE1C7122CE0091F7BB /* HomeViewController.swift in Sources */,
+				5B6954E41C904F3800C5724C /* WorkoutTableViewController.swift in Sources */,
+				5B9F6F601CC00E93000D0590 /* FriendsTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B60A4DA1C7122CF0091F7BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B60A4E31C7122CF0091F7BB /* RuLifeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B60A4E51C7122CF0091F7BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B60A4EE1C7122CF0091F7BB /* RuLifeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B60A4E01C7122CF0091F7BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B60A4C71C7122CE0091F7BB /* RunLife */;
+			targetProxy = 5B60A4DF1C7122CF0091F7BB /* PBXContainerItemProxy */;
+		};
+		5B60A4EB1C7122CF0091F7BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B60A4C71C7122CE0091F7BB /* RunLife */;
+			targetProxy = 5B60A4EA1C7122CF0091F7BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B60A4D11C7122CE0091F7BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B60A4D21C7122CE0091F7BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B60A4D61C7122CE0091F7BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B60A4D71C7122CE0091F7BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B60A4F01C7122CF0091F7BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B60A4F11C7122CF0091F7BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B60A4F31C7122CF0091F7BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = RuLife/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = martin.sekerak.RunLife;
+				PRODUCT_NAME = RunLife;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		5B60A4F41C7122CF0091F7BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = RuLife/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = martin.sekerak.RunLife;
+				PRODUCT_NAME = RunLife;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		5B60A4F61C7122CF0091F7BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RuLifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = martin.sekerak.RuLifeTests;
+				PRODUCT_NAME = RunLife;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RunLife.app/RunLife";
+			};
+			name = Debug;
+		};
+		5B60A4F71C7122CF0091F7BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RuLifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = martin.sekerak.RuLifeTests;
+				PRODUCT_NAME = RunLife;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RunLife.app/RunLife";
+			};
+			name = Release;
+		};
+		5B60A4F91C7122CF0091F7BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RuLifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = martin.sekerak.RuLifeUITests;
+				PRODUCT_NAME = RunLife;
+				TEST_TARGET_NAME = RuLife;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5B60A4FA1C7122CF0091F7BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RuLifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = martin.sekerak.RuLifeUITests;
+				PRODUCT_NAME = RunLife;
+				TEST_TARGET_NAME = RuLife;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B60A4C31C7122CE0091F7BB /* Build configuration list for PBXProject "RunLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B60A4F01C7122CF0091F7BB /* Debug */,
+				5B60A4F11C7122CF0091F7BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B60A4F21C7122CF0091F7BB /* Build configuration list for PBXNativeTarget "RunLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B60A4F31C7122CF0091F7BB /* Debug */,
+				5B60A4F41C7122CF0091F7BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B60A4F51C7122CF0091F7BB /* Build configuration list for PBXNativeTarget "RunLifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B60A4F61C7122CF0091F7BB /* Debug */,
+				5B60A4F71C7122CF0091F7BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B60A4F81C7122CF0091F7BB /* Build configuration list for PBXNativeTarget "RunLifeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B60A4F91C7122CF0091F7BB /* Debug */,
+				5B60A4FA1C7122CF0091F7BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5B7287421CA970E4000166F1 /* RuLife.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5B7287431CA970E4000166F1 /* RuLife.xcdatamodel */,
+			);
+			currentVersion = 5B7287431CA970E4000166F1 /* RuLife.xcdatamodel */;
+			path = RuLife.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5B60A4C01C7122CE0091F7BB /* Project object */;
+}

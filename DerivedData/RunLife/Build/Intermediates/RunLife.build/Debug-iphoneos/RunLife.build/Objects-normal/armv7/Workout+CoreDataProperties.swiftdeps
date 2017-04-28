@@ -1,0 +1,103 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["C7RunLife7Workout", ""]
+- ["C7RunLife7Workout", "workout_date"]
+- ["C7RunLife7Workout", "workout_distance"]
+- ["C7RunLife7Workout", "workout_duration"]
+- ["C7RunLife7Workout", "workout_identifier"]
+- ["C7RunLife7Workout", "location"]
+provides-dynamic-lookup:
+- "workout_date"
+- "location"
+- "workout_distance"
+- "workout_identifier"
+- "workout_duration"
+depends-top-level:
+- "NSDate"
+- "String"
+- "NSNumber"
+- "Workout"
+- "Location"
+depends-member:
+- ["PSs9AnyObject", "location"]
+- ["PSs9AnyObject", "workout_date"]
+- ["PSs9AnyObject", "workout_distance"]
+- ["PSs9AnyObject", "workout_duration"]
+- ["PSs9AnyObject", "workout_identifier"]
+- ["PSs11CVarArgType", "location"]
+- ["PSs11CVarArgType", "workout_date"]
+- ["PSs11CVarArgType", "workout_distance"]
+- ["PSs11CVarArgType", "workout_duration"]
+- ["PSs11CVarArgType", "workout_identifier"]
+- ["PSs23CustomStringConvertible", "location"]
+- ["PSs23CustomStringConvertible", "workout_date"]
+- ["PSs23CustomStringConvertible", "workout_distance"]
+- ["PSs23CustomStringConvertible", "workout_duration"]
+- ["PSs23CustomStringConvertible", "workout_identifier"]
+- ["PSs9Equatable", "location"]
+- ["PSs9Equatable", "workout_date"]
+- ["PSs9Equatable", "workout_distance"]
+- ["PSs9Equatable", "workout_duration"]
+- ["PSs9Equatable", "workout_identifier"]
+- ["PSs8Hashable", "location"]
+- ["PSs8Hashable", "workout_date"]
+- ["PSs8Hashable", "workout_distance"]
+- ["PSs8Hashable", "workout_duration"]
+- ["PSs8Hashable", "workout_identifier"]
+- ["CSo15NSManagedObject", "Location"]
+- ["CSo15NSManagedObject", "NSDate"]
+- ["CSo15NSManagedObject", "NSNumber"]
+- ["CSo15NSManagedObject", "String"]
+- ["CSo15NSManagedObject", "location"]
+- ["CSo15NSManagedObject", "workout_date"]
+- ["CSo15NSManagedObject", "workout_distance"]
+- ["CSo15NSManagedObject", "workout_duration"]
+- ["CSo15NSManagedObject", "workout_identifier"]
+- ["CSo8NSObject", "Location"]
+- ["CSo8NSObject", "NSDate"]
+- ["CSo8NSObject", "NSNumber"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "location"]
+- ["CSo8NSObject", "workout_date"]
+- ["CSo8NSObject", "workout_distance"]
+- ["CSo8NSObject", "workout_duration"]
+- ["CSo8NSObject", "workout_identifier"]
+- ["PSo16NSObjectProtocol", "location"]
+- ["PSo16NSObjectProtocol", "workout_date"]
+- ["PSo16NSObjectProtocol", "workout_distance"]
+- ["PSo16NSObjectProtocol", "workout_duration"]
+- ["PSo16NSObjectProtocol", "workout_identifier"]
+- ["C7RunLife7Workout", "Location"]
+- ["C7RunLife7Workout", "NSDate"]
+- ["C7RunLife7Workout", "NSNumber"]
+- ["C7RunLife7Workout", "String"]
+- ["C7RunLife7Workout", "location"]
+- ["C7RunLife7Workout", "workout_date"]
+- ["C7RunLife7Workout", "workout_distance"]
+- ["C7RunLife7Workout", "workout_duration"]
+- ["C7RunLife7Workout", "workout_identifier"]
+depends-nominal:
+- "PSs9AnyObject"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "CSo15NSManagedObject"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "C7RunLife7Workout"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreLocation.swiftmodule"
+interface-hash: "a2fe78d03451e866581be414acca316b"

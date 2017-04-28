@@ -1,0 +1,109 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["C7RunLife8Location", ""]
+- ["C7RunLife8Location", "location_latitude"]
+- ["C7RunLife8Location", "location_longitude"]
+- ["C7RunLife8Location", "location_time"]
+- ["C7RunLife8Location", "location_identifier"]
+- ["C7RunLife8Location", "workout"]
+provides-dynamic-lookup:
+- "location_longitude"
+- "workout"
+- "location_latitude"
+- "location_time"
+- "location_identifier"
+depends-top-level:
+- "String"
+- "Workout"
+- "Location"
+- "NSDate"
+- "NSNumber"
+depends-member:
+- ["Ps9AnyObject", "location_identifier"]
+- ["Ps9AnyObject", "location_latitude"]
+- ["Ps9AnyObject", "location_longitude"]
+- ["Ps9AnyObject", "location_time"]
+- ["Ps9AnyObject", "workout"]
+- ["Ps11CVarArgType", "location_identifier"]
+- ["Ps11CVarArgType", "location_latitude"]
+- ["Ps11CVarArgType", "location_longitude"]
+- ["Ps11CVarArgType", "location_time"]
+- ["Ps11CVarArgType", "workout"]
+- ["Ps28CustomDebugStringConvertible", "location_identifier"]
+- ["Ps28CustomDebugStringConvertible", "location_latitude"]
+- ["Ps28CustomDebugStringConvertible", "location_longitude"]
+- ["Ps28CustomDebugStringConvertible", "location_time"]
+- ["Ps28CustomDebugStringConvertible", "workout"]
+- ["Ps23CustomStringConvertible", "location_identifier"]
+- ["Ps23CustomStringConvertible", "location_latitude"]
+- ["Ps23CustomStringConvertible", "location_longitude"]
+- ["Ps23CustomStringConvertible", "location_time"]
+- ["Ps23CustomStringConvertible", "workout"]
+- ["Ps9Equatable", "location_identifier"]
+- ["Ps9Equatable", "location_latitude"]
+- ["Ps9Equatable", "location_longitude"]
+- ["Ps9Equatable", "location_time"]
+- ["Ps9Equatable", "workout"]
+- ["Ps8Hashable", "location_identifier"]
+- ["Ps8Hashable", "location_latitude"]
+- ["Ps8Hashable", "location_longitude"]
+- ["Ps8Hashable", "location_time"]
+- ["Ps8Hashable", "workout"]
+- ["C7RunLife8Location", "NSDate"]
+- ["C7RunLife8Location", "NSNumber"]
+- ["C7RunLife8Location", "String"]
+- ["C7RunLife8Location", "Workout"]
+- ["C7RunLife8Location", "location_identifier"]
+- ["C7RunLife8Location", "location_latitude"]
+- ["C7RunLife8Location", "location_longitude"]
+- ["C7RunLife8Location", "location_time"]
+- ["C7RunLife8Location", "workout"]
+- ["CSo15NSManagedObject", "NSDate"]
+- ["CSo15NSManagedObject", "NSNumber"]
+- ["CSo15NSManagedObject", "String"]
+- ["CSo15NSManagedObject", "Workout"]
+- ["CSo15NSManagedObject", "location_identifier"]
+- ["CSo15NSManagedObject", "location_latitude"]
+- ["CSo15NSManagedObject", "location_longitude"]
+- ["CSo15NSManagedObject", "location_time"]
+- ["CSo15NSManagedObject", "workout"]
+- ["CSo8NSObject", "NSDate"]
+- ["CSo8NSObject", "NSNumber"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "Workout"]
+- ["CSo8NSObject", "location_identifier"]
+- ["CSo8NSObject", "location_latitude"]
+- ["CSo8NSObject", "location_longitude"]
+- ["CSo8NSObject", "location_time"]
+- ["CSo8NSObject", "workout"]
+- ["PSo16NSObjectProtocol", "location_identifier"]
+- ["PSo16NSObjectProtocol", "location_latitude"]
+- ["PSo16NSObjectProtocol", "location_longitude"]
+- ["PSo16NSObjectProtocol", "location_time"]
+- ["PSo16NSObjectProtocol", "workout"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "C7RunLife8Location"
+- "CSo15NSManagedObject"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+interface-hash: "e1fd2b1f851733b044b4ac6d7b788ed8"

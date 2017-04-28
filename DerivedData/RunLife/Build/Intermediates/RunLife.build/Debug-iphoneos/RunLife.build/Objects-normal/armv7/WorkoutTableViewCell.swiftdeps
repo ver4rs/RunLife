@@ -1,0 +1,280 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "WorkoutTableViewCell"
+provides-nominal:
+- "C7RunLife20WorkoutTableViewCell"
+provides-member:
+- ["C7RunLife20WorkoutTableViewCell", ""]
+provides-dynamic-lookup:
+- "awakeFromNib"
+- "dateLabel"
+- "likeIcon"
+- "visibleIcon"
+- "titleLabel"
+- "imageType"
+- "decriptionLabel"
+- "setSelected"
+depends-top-level:
+- "UITableViewCell"
+- "WorkoutTableViewCell"
+- "Bool"
+- "UIImageView"
+- "UILabel"
+depends-member:
+- ["PSs9AnyObject", "awakeFromNib"]
+- ["PSs9AnyObject", "dateLabel"]
+- ["PSs9AnyObject", "decriptionLabel"]
+- ["PSs9AnyObject", "imageType"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "likeIcon"]
+- ["PSs9AnyObject", "setSelected"]
+- ["PSs9AnyObject", "titleLabel"]
+- ["PSs9AnyObject", "visibleIcon"]
+- ["PSs9AnyObject", ""]
+- ["PSs11CVarArgType", "awakeFromNib"]
+- ["PSs11CVarArgType", "dateLabel"]
+- ["PSs11CVarArgType", "decriptionLabel"]
+- ["PSs11CVarArgType", "imageType"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "likeIcon"]
+- ["PSs11CVarArgType", "setSelected"]
+- ["PSs11CVarArgType", "titleLabel"]
+- ["PSs11CVarArgType", "visibleIcon"]
+- ["PSs11CVarArgType", ""]
+- ["PSs23CustomStringConvertible", "awakeFromNib"]
+- ["PSs23CustomStringConvertible", "dateLabel"]
+- ["PSs23CustomStringConvertible", "decriptionLabel"]
+- ["PSs23CustomStringConvertible", "imageType"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "likeIcon"]
+- ["PSs23CustomStringConvertible", "setSelected"]
+- ["PSs23CustomStringConvertible", "titleLabel"]
+- ["PSs23CustomStringConvertible", "visibleIcon"]
+- ["PSs23CustomStringConvertible", ""]
+- ["PSs9Equatable", "awakeFromNib"]
+- ["PSs9Equatable", "dateLabel"]
+- ["PSs9Equatable", "decriptionLabel"]
+- ["PSs9Equatable", "imageType"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "likeIcon"]
+- ["PSs9Equatable", "setSelected"]
+- ["PSs9Equatable", "titleLabel"]
+- ["PSs9Equatable", "visibleIcon"]
+- ["PSs9Equatable", ""]
+- ["PSs8Hashable", "awakeFromNib"]
+- ["PSs8Hashable", "dateLabel"]
+- ["PSs8Hashable", "decriptionLabel"]
+- ["PSs8Hashable", "imageType"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "likeIcon"]
+- ["PSs8Hashable", "setSelected"]
+- ["PSs8Hashable", "titleLabel"]
+- ["PSs8Hashable", "visibleIcon"]
+- ["PSs8Hashable", ""]
+- ["PSo8NSCoding", "awakeFromNib"]
+- ["PSo8NSCoding", "dateLabel"]
+- ["PSo8NSCoding", "decriptionLabel"]
+- ["PSo8NSCoding", "imageType"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "likeIcon"]
+- ["PSo8NSCoding", "setSelected"]
+- ["PSo8NSCoding", "titleLabel"]
+- ["PSo8NSCoding", "visibleIcon"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "UIImageView"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "awakeFromNib"]
+- ["CSo8NSObject", "dateLabel"]
+- ["CSo8NSObject", "decriptionLabel"]
+- ["CSo8NSObject", "imageType"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "likeIcon"]
+- ["CSo8NSObject", "setSelected"]
+- ["CSo8NSObject", "titleLabel"]
+- ["CSo8NSObject", "visibleIcon"]
+- ["PSo16NSObjectProtocol", "awakeFromNib"]
+- ["PSo16NSObjectProtocol", "dateLabel"]
+- ["PSo16NSObjectProtocol", "decriptionLabel"]
+- ["PSo16NSObjectProtocol", "imageType"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "likeIcon"]
+- ["PSo16NSObjectProtocol", "setSelected"]
+- ["PSo16NSObjectProtocol", "titleLabel"]
+- ["PSo16NSObjectProtocol", "visibleIcon"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo29UIAccessibilityIdentification", "awakeFromNib"]
+- ["PSo29UIAccessibilityIdentification", "dateLabel"]
+- ["PSo29UIAccessibilityIdentification", "decriptionLabel"]
+- ["PSo29UIAccessibilityIdentification", "imageType"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", "likeIcon"]
+- ["PSo29UIAccessibilityIdentification", "setSelected"]
+- ["PSo29UIAccessibilityIdentification", "titleLabel"]
+- ["PSo29UIAccessibilityIdentification", "visibleIcon"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- ["PSo12UIAppearance", "awakeFromNib"]
+- ["PSo12UIAppearance", "dateLabel"]
+- ["PSo12UIAppearance", "decriptionLabel"]
+- ["PSo12UIAppearance", "imageType"]
+- ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", "likeIcon"]
+- ["PSo12UIAppearance", "setSelected"]
+- ["PSo12UIAppearance", "titleLabel"]
+- ["PSo12UIAppearance", "visibleIcon"]
+- ["PSo12UIAppearance", ""]
+- ["PSo21UIAppearanceContainer", "awakeFromNib"]
+- ["PSo21UIAppearanceContainer", "dateLabel"]
+- ["PSo21UIAppearanceContainer", "decriptionLabel"]
+- ["PSo21UIAppearanceContainer", "imageType"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "likeIcon"]
+- ["PSo21UIAppearanceContainer", "setSelected"]
+- ["PSo21UIAppearanceContainer", "titleLabel"]
+- ["PSo21UIAppearanceContainer", "visibleIcon"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo17UICoordinateSpace", "awakeFromNib"]
+- ["PSo17UICoordinateSpace", "dateLabel"]
+- ["PSo17UICoordinateSpace", "decriptionLabel"]
+- ["PSo17UICoordinateSpace", "imageType"]
+- ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", "likeIcon"]
+- ["PSo17UICoordinateSpace", "setSelected"]
+- ["PSo17UICoordinateSpace", "titleLabel"]
+- ["PSo17UICoordinateSpace", "visibleIcon"]
+- ["PSo17UICoordinateSpace", ""]
+- ["PSo13UIDynamicItem", "awakeFromNib"]
+- ["PSo13UIDynamicItem", "dateLabel"]
+- ["PSo13UIDynamicItem", "decriptionLabel"]
+- ["PSo13UIDynamicItem", "imageType"]
+- ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", "likeIcon"]
+- ["PSo13UIDynamicItem", "setSelected"]
+- ["PSo13UIDynamicItem", "titleLabel"]
+- ["PSo13UIDynamicItem", "visibleIcon"]
+- ["PSo13UIDynamicItem", ""]
+- ["PSo18UIFocusEnvironment", "awakeFromNib"]
+- ["PSo18UIFocusEnvironment", "dateLabel"]
+- ["PSo18UIFocusEnvironment", "decriptionLabel"]
+- ["PSo18UIFocusEnvironment", "imageType"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "likeIcon"]
+- ["PSo18UIFocusEnvironment", "setSelected"]
+- ["PSo18UIFocusEnvironment", "titleLabel"]
+- ["PSo18UIFocusEnvironment", "visibleIcon"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["PSo27UIGestureRecognizerDelegate", "awakeFromNib"]
+- ["PSo27UIGestureRecognizerDelegate", "dateLabel"]
+- ["PSo27UIGestureRecognizerDelegate", "decriptionLabel"]
+- ["PSo27UIGestureRecognizerDelegate", "imageType"]
+- ["PSo27UIGestureRecognizerDelegate", "init"]
+- ["PSo27UIGestureRecognizerDelegate", "likeIcon"]
+- ["PSo27UIGestureRecognizerDelegate", "setSelected"]
+- ["PSo27UIGestureRecognizerDelegate", "titleLabel"]
+- ["PSo27UIGestureRecognizerDelegate", "visibleIcon"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "UIImageView"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "awakeFromNib"]
+- ["CSo11UIResponder", "dateLabel"]
+- ["CSo11UIResponder", "decriptionLabel"]
+- ["CSo11UIResponder", "imageType"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "likeIcon"]
+- ["CSo11UIResponder", "setSelected"]
+- ["CSo11UIResponder", "titleLabel"]
+- ["CSo11UIResponder", "visibleIcon"]
+- ["CSo15UITableViewCell", "Bool"]
+- ["CSo15UITableViewCell", "UIImageView"]
+- ["CSo15UITableViewCell", "UILabel"]
+- ["CSo15UITableViewCell", "awakeFromNib"]
+- ["CSo15UITableViewCell", "dateLabel"]
+- ["CSo15UITableViewCell", "decriptionLabel"]
+- ["CSo15UITableViewCell", "imageType"]
+- ["CSo15UITableViewCell", "init"]
+- ["CSo15UITableViewCell", "likeIcon"]
+- ["CSo15UITableViewCell", "setSelected"]
+- ["CSo15UITableViewCell", "titleLabel"]
+- ["CSo15UITableViewCell", "visibleIcon"]
+- ["CSo15UITableViewCell", ""]
+- ["PSo18UITraitEnvironment", "awakeFromNib"]
+- ["PSo18UITraitEnvironment", "dateLabel"]
+- ["PSo18UITraitEnvironment", "decriptionLabel"]
+- ["PSo18UITraitEnvironment", "imageType"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "likeIcon"]
+- ["PSo18UITraitEnvironment", "setSelected"]
+- ["PSo18UITraitEnvironment", "titleLabel"]
+- ["PSo18UITraitEnvironment", "visibleIcon"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "Bool"]
+- ["CSo6UIView", "UIImageView"]
+- ["CSo6UIView", "UILabel"]
+- ["CSo6UIView", "awakeFromNib"]
+- ["CSo6UIView", "dateLabel"]
+- ["CSo6UIView", "decriptionLabel"]
+- ["CSo6UIView", "imageType"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "likeIcon"]
+- ["CSo6UIView", "setSelected"]
+- ["CSo6UIView", "titleLabel"]
+- ["CSo6UIView", "visibleIcon"]
+- ["C7RunLife20WorkoutTableViewCell", "Bool"]
+- ["C7RunLife20WorkoutTableViewCell", "UIImageView"]
+- ["C7RunLife20WorkoutTableViewCell", "UILabel"]
+- ["C7RunLife20WorkoutTableViewCell", "awakeFromNib"]
+- ["C7RunLife20WorkoutTableViewCell", "dateLabel"]
+- ["C7RunLife20WorkoutTableViewCell", "decriptionLabel"]
+- ["C7RunLife20WorkoutTableViewCell", "deinit"]
+- ["C7RunLife20WorkoutTableViewCell", "imageType"]
+- ["C7RunLife20WorkoutTableViewCell", "init"]
+- ["C7RunLife20WorkoutTableViewCell", "likeIcon"]
+- ["C7RunLife20WorkoutTableViewCell", "setSelected"]
+- ["C7RunLife20WorkoutTableViewCell", "titleLabel"]
+- ["C7RunLife20WorkoutTableViewCell", "visibleIcon"]
+- ["PSs12_Reflectable", "awakeFromNib"]
+- ["PSs12_Reflectable", "dateLabel"]
+- ["PSs12_Reflectable", "decriptionLabel"]
+- ["PSs12_Reflectable", "imageType"]
+- ["PSs12_Reflectable", "init"]
+- ["PSs12_Reflectable", "likeIcon"]
+- ["PSs12_Reflectable", "setSelected"]
+- ["PSs12_Reflectable", "titleLabel"]
+- ["PSs12_Reflectable", "visibleIcon"]
+- ["PSs12_Reflectable", ""]
+depends-nominal:
+- "PSs9AnyObject"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo27UIGestureRecognizerDelegate"
+- "CSo11UIResponder"
+- "CSo15UITableViewCell"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "C7RunLife20WorkoutTableViewCell"
+- "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreLocation.swiftmodule"
+interface-hash: "60d028657b08879454c00f5554183d05"

@@ -1,0 +1,230 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "StartWorkoutTableViewCell"
+provides-nominal:
+- "C7RunLife25StartWorkoutTableViewCell"
+provides-member:
+- ["C7RunLife25StartWorkoutTableViewCell", ""]
+provides-dynamic-lookup:
+- "rightTextLabel"
+- "setSelected"
+- "leftTextLabel"
+- "awakeFromNib"
+- "leftTitleLabel"
+- "rightTitleLabel"
+depends-top-level:
+- "StartWorkoutTableViewCell"
+- "UITableViewCell"
+- "UILabel"
+- "Bool"
+depends-member:
+- ["PSs9AnyObject", "awakeFromNib"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "leftTextLabel"]
+- ["PSs9AnyObject", "leftTitleLabel"]
+- ["PSs9AnyObject", "rightTextLabel"]
+- ["PSs9AnyObject", "rightTitleLabel"]
+- ["PSs9AnyObject", "setSelected"]
+- ["PSs9AnyObject", ""]
+- ["PSs11CVarArgType", "awakeFromNib"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "leftTextLabel"]
+- ["PSs11CVarArgType", "leftTitleLabel"]
+- ["PSs11CVarArgType", "rightTextLabel"]
+- ["PSs11CVarArgType", "rightTitleLabel"]
+- ["PSs11CVarArgType", "setSelected"]
+- ["PSs11CVarArgType", ""]
+- ["PSs23CustomStringConvertible", "awakeFromNib"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "leftTextLabel"]
+- ["PSs23CustomStringConvertible", "leftTitleLabel"]
+- ["PSs23CustomStringConvertible", "rightTextLabel"]
+- ["PSs23CustomStringConvertible", "rightTitleLabel"]
+- ["PSs23CustomStringConvertible", "setSelected"]
+- ["PSs23CustomStringConvertible", ""]
+- ["PSs9Equatable", "awakeFromNib"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "leftTextLabel"]
+- ["PSs9Equatable", "leftTitleLabel"]
+- ["PSs9Equatable", "rightTextLabel"]
+- ["PSs9Equatable", "rightTitleLabel"]
+- ["PSs9Equatable", "setSelected"]
+- ["PSs9Equatable", ""]
+- ["PSs8Hashable", "awakeFromNib"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "leftTextLabel"]
+- ["PSs8Hashable", "leftTitleLabel"]
+- ["PSs8Hashable", "rightTextLabel"]
+- ["PSs8Hashable", "rightTitleLabel"]
+- ["PSs8Hashable", "setSelected"]
+- ["PSs8Hashable", ""]
+- ["PSo8NSCoding", "awakeFromNib"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "leftTextLabel"]
+- ["PSo8NSCoding", "leftTitleLabel"]
+- ["PSo8NSCoding", "rightTextLabel"]
+- ["PSo8NSCoding", "rightTitleLabel"]
+- ["PSo8NSCoding", "setSelected"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "awakeFromNib"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "leftTextLabel"]
+- ["CSo8NSObject", "leftTitleLabel"]
+- ["CSo8NSObject", "rightTextLabel"]
+- ["CSo8NSObject", "rightTitleLabel"]
+- ["CSo8NSObject", "setSelected"]
+- ["PSo16NSObjectProtocol", "awakeFromNib"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "leftTextLabel"]
+- ["PSo16NSObjectProtocol", "leftTitleLabel"]
+- ["PSo16NSObjectProtocol", "rightTextLabel"]
+- ["PSo16NSObjectProtocol", "rightTitleLabel"]
+- ["PSo16NSObjectProtocol", "setSelected"]
+- ["PSo16NSObjectProtocol", ""]
+- ["C7RunLife25StartWorkoutTableViewCell", "Bool"]
+- ["C7RunLife25StartWorkoutTableViewCell", "UILabel"]
+- ["C7RunLife25StartWorkoutTableViewCell", "awakeFromNib"]
+- ["C7RunLife25StartWorkoutTableViewCell", "deinit"]
+- ["C7RunLife25StartWorkoutTableViewCell", "init"]
+- ["C7RunLife25StartWorkoutTableViewCell", "leftTextLabel"]
+- ["C7RunLife25StartWorkoutTableViewCell", "leftTitleLabel"]
+- ["C7RunLife25StartWorkoutTableViewCell", "rightTextLabel"]
+- ["C7RunLife25StartWorkoutTableViewCell", "rightTitleLabel"]
+- ["C7RunLife25StartWorkoutTableViewCell", "setSelected"]
+- ["PSo29UIAccessibilityIdentification", "awakeFromNib"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", "leftTextLabel"]
+- ["PSo29UIAccessibilityIdentification", "leftTitleLabel"]
+- ["PSo29UIAccessibilityIdentification", "rightTextLabel"]
+- ["PSo29UIAccessibilityIdentification", "rightTitleLabel"]
+- ["PSo29UIAccessibilityIdentification", "setSelected"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- ["PSo12UIAppearance", "awakeFromNib"]
+- ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", "leftTextLabel"]
+- ["PSo12UIAppearance", "leftTitleLabel"]
+- ["PSo12UIAppearance", "rightTextLabel"]
+- ["PSo12UIAppearance", "rightTitleLabel"]
+- ["PSo12UIAppearance", "setSelected"]
+- ["PSo12UIAppearance", ""]
+- ["PSo21UIAppearanceContainer", "awakeFromNib"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "leftTextLabel"]
+- ["PSo21UIAppearanceContainer", "leftTitleLabel"]
+- ["PSo21UIAppearanceContainer", "rightTextLabel"]
+- ["PSo21UIAppearanceContainer", "rightTitleLabel"]
+- ["PSo21UIAppearanceContainer", "setSelected"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo17UICoordinateSpace", "awakeFromNib"]
+- ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", "leftTextLabel"]
+- ["PSo17UICoordinateSpace", "leftTitleLabel"]
+- ["PSo17UICoordinateSpace", "rightTextLabel"]
+- ["PSo17UICoordinateSpace", "rightTitleLabel"]
+- ["PSo17UICoordinateSpace", "setSelected"]
+- ["PSo17UICoordinateSpace", ""]
+- ["PSo13UIDynamicItem", "awakeFromNib"]
+- ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", "leftTextLabel"]
+- ["PSo13UIDynamicItem", "leftTitleLabel"]
+- ["PSo13UIDynamicItem", "rightTextLabel"]
+- ["PSo13UIDynamicItem", "rightTitleLabel"]
+- ["PSo13UIDynamicItem", "setSelected"]
+- ["PSo13UIDynamicItem", ""]
+- ["PSo18UIFocusEnvironment", "awakeFromNib"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "leftTextLabel"]
+- ["PSo18UIFocusEnvironment", "leftTitleLabel"]
+- ["PSo18UIFocusEnvironment", "rightTextLabel"]
+- ["PSo18UIFocusEnvironment", "rightTitleLabel"]
+- ["PSo18UIFocusEnvironment", "setSelected"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["PSo27UIGestureRecognizerDelegate", "awakeFromNib"]
+- ["PSo27UIGestureRecognizerDelegate", "init"]
+- ["PSo27UIGestureRecognizerDelegate", "leftTextLabel"]
+- ["PSo27UIGestureRecognizerDelegate", "leftTitleLabel"]
+- ["PSo27UIGestureRecognizerDelegate", "rightTextLabel"]
+- ["PSo27UIGestureRecognizerDelegate", "rightTitleLabel"]
+- ["PSo27UIGestureRecognizerDelegate", "setSelected"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "awakeFromNib"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "leftTextLabel"]
+- ["CSo11UIResponder", "leftTitleLabel"]
+- ["CSo11UIResponder", "rightTextLabel"]
+- ["CSo11UIResponder", "rightTitleLabel"]
+- ["CSo11UIResponder", "setSelected"]
+- ["CSo15UITableViewCell", "Bool"]
+- ["CSo15UITableViewCell", "UILabel"]
+- ["CSo15UITableViewCell", "awakeFromNib"]
+- ["CSo15UITableViewCell", "init"]
+- ["CSo15UITableViewCell", "leftTextLabel"]
+- ["CSo15UITableViewCell", "leftTitleLabel"]
+- ["CSo15UITableViewCell", "rightTextLabel"]
+- ["CSo15UITableViewCell", "rightTitleLabel"]
+- ["CSo15UITableViewCell", "setSelected"]
+- ["CSo15UITableViewCell", ""]
+- ["PSo18UITraitEnvironment", "awakeFromNib"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "leftTextLabel"]
+- ["PSo18UITraitEnvironment", "leftTitleLabel"]
+- ["PSo18UITraitEnvironment", "rightTextLabel"]
+- ["PSo18UITraitEnvironment", "rightTitleLabel"]
+- ["PSo18UITraitEnvironment", "setSelected"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "Bool"]
+- ["CSo6UIView", "UILabel"]
+- ["CSo6UIView", "awakeFromNib"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "leftTextLabel"]
+- ["CSo6UIView", "leftTitleLabel"]
+- ["CSo6UIView", "rightTextLabel"]
+- ["CSo6UIView", "rightTitleLabel"]
+- ["CSo6UIView", "setSelected"]
+- ["PSs12_Reflectable", "awakeFromNib"]
+- ["PSs12_Reflectable", "init"]
+- ["PSs12_Reflectable", "leftTextLabel"]
+- ["PSs12_Reflectable", "leftTitleLabel"]
+- ["PSs12_Reflectable", "rightTextLabel"]
+- ["PSs12_Reflectable", "rightTitleLabel"]
+- ["PSs12_Reflectable", "setSelected"]
+- ["PSs12_Reflectable", ""]
+depends-nominal:
+- "PSs9AnyObject"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "C7RunLife25StartWorkoutTableViewCell"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo27UIGestureRecognizerDelegate"
+- "CSo11UIResponder"
+- "CSo15UITableViewCell"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreLocation.swiftmodule"
+interface-hash: "b4a85dbc62f69dc66c0bcf904e30545a"
